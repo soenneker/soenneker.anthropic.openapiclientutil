@@ -49,9 +49,7 @@
         <PackageReference Include="Soenneker.Utils.AsyncSingleton" Version="11.0.886" />
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\..\..\soenneker.anthropic.httpclients\src\Soenneker.Anthropic.HttpClients\Soenneker.Anthropic.HttpClients.csproj" Condition="Exists('..\..\..\soenneker.anthropic.httpclients\src\Soenneker.Anthropic.HttpClients\Soenneker.Anthropic.HttpClients.csproj')" />
-        <PackageReference Include="Soenneker.Anthropic.HttpClients" Version="11.0.0" Condition="!Exists('..\..\..\soenneker.anthropic.httpclients\src\Soenneker.Anthropic.HttpClients\Soenneker.Anthropic.HttpClients.csproj')" />
-        <ProjectReference Include="..\..\..\soenneker.anthropic.openapiclient\src\Soenneker.Anthropic.OpenApiClient\Soenneker.Anthropic.OpenApiClient.csproj" Condition="Exists('..\..\..\soenneker.anthropic.openapiclient\src\Soenneker.Anthropic.OpenApiClient\Soenneker.Anthropic.OpenApiClient.csproj')" />
-        <PackageReference Include="Soenneker.Anthropic.OpenApiClient" Version="11.0.0" Condition="!Exists('..\..\..\soenneker.anthropic.openapiclient\src\Soenneker.Anthropic.OpenApiClient\Soenneker.Anthropic.OpenApiClient.csproj')" />
+        <PackageReference Include="Soenneker.Anthropic.HttpClients" Version="11.0.1" />
+        <PackageReference Include="Soenneker.Anthropic.OpenApiClient" Version="11.0.3" />
     </ItemGroup>
 </Project>
