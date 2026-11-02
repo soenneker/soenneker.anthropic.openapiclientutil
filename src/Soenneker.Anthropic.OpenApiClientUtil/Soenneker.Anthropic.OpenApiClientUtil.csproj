@@ -45,10 +45,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.Kiota.Http.HttpClientLibrary" Version="2.1.2" />
-        <PackageReference Include="Soenneker.Utils.AsyncSingleton" Version="11.0.886" />
-    </ItemGroup>
-    <ItemGroup>
         <PackageReference Include="Soenneker.Anthropic.HttpClients" Version="11.0.1" />
         <PackageReference Include="Soenneker.Anthropic.OpenApiClient" Version="11.0.4" />
     </ItemGroup>
