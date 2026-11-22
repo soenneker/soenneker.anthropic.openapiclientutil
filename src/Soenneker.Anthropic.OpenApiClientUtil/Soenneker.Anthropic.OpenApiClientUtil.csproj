@@ -46,6 +46,6 @@
 
     <ItemGroup>
         <PackageReference Include="Soenneker.Anthropic.HttpClients" Version="11.0.19" />
-        <PackageReference Include="Soenneker.Anthropic.OpenApiClient" Version="11.0.27" />
+        <PackageReference Include="Soenneker.Anthropic.OpenApiClient" Version="11.0.28" />
     </ItemGroup>
 </Project>
